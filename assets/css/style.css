@@ -474,7 +474,7 @@ header .action {
   line-height: 1.54; /* 153.846% */
 }
 
-/* ============features========== */
+/* ============features1========== */
 .features {
   margin-top: 136px;
   padding: 65px 0px;
@@ -518,4 +518,15 @@ header .action {
   width: 137px;
   height: 50px;
   background: var(--primary-color);
+}
+/* ============features2========== */
+.features-2nd {
+  margin-top: 70px;
+}
+.features-2nd .body {
+  flex-direction: row-reverse;
+}
+
+.features-2nd .content {
+  width: 49%;
 }
